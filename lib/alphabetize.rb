@@ -18,7 +18,7 @@ end
 def alphabetize(arr)
   new_arr = arr
   puts new_arr
-  
+
   new_arr.sort! do |x, y|
     test_word(x, y)
     puts test_word(x, y)
