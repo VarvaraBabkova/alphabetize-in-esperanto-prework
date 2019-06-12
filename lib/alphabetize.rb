@@ -5,6 +5,7 @@ def letter_index (x)
 end
 
 def test_word (x, y)
+  put x + " " + y
   return 0 if x == y
 
   min_size = (x.size<y.size) ? x.size : y.size
@@ -16,8 +17,11 @@ end
 
 def alphabetize(arr)
   new_arr = arr
+  puts new_arr
+  
   new_arr.sort! do |x, y|
     test_word(x, y)
+    puts test_word(x, y)
   end
   return new_arr
 end
