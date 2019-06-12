@@ -1,4 +1,4 @@
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ESPERANTO_ALPHABET = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def letter_index (x)
   return ESPERANTO_ALPHABET.index(x)
