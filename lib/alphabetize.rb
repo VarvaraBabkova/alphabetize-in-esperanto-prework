@@ -5,7 +5,7 @@ def letter_index (x)
 end
 
 def test_word (x, y)
-  put x + " " + y
+  puts x + " " + y
   return 0 if x == y
 
   min_size = (x.size<y.size) ? x.size : y.size
