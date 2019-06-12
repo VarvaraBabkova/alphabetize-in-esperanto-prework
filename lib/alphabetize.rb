@@ -7,7 +7,7 @@ end
 def alphabetize(arr)
   new_arr = arr
   new_arr.sort! do |x, y|
-    x <=> y
+    test(x) <=> test(y)
   end
   return new_arr
 end
